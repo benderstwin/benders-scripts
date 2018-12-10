@@ -44,4 +44,4 @@ COMPLETEDDIR=/data/torrents/ipt
 ## Support on Beerpay
 If you feel like donating, I like :beers:! :smiley:
 
-[![Beerpay](https://beerpay.io/benderstwin/benders-scripts/badge.svg?style=beer-square)](https://beerpay.io/benderstwin/benders-scripts)  [![Beerpay](https://beerpay.io/benderstwin/benders-scripts/make-wish.svg?style=flat-square)](https://beerpay.io/benderstwin/benders-scripts?focus=wish
+[![Beerpay](https://beerpay.io/benderstwin/benders-scripts/badge.svg)](https://beerpay.io/benderstwin/benders-scripts)
