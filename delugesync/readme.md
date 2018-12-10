@@ -10,8 +10,10 @@ create public/private keys for ssh
 on remote machine add a user  
 ```sudo adduser sshfs```
 
-give user permissions to directory you want to mount
+create and give user permissions to your blackhole directory
+```mkdir /downloads/torrents/blackhole``` 
 ```setfacl -d -m g:sshfs:rwX /downloads/torrents/sshblackhole```
+
 #you may have to install acl
 
 login as newly created sshfs user
