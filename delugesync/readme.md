@@ -1,3 +1,9 @@
+To do to increase functionality:
+add ability to transfer with rclone
+add ability to define multiple directories (for multiple labels/trackers)
+
+NOTE:  You must sync your files to your seedbox.  I use syncthing for this currently, but you can use whatever you want.
+
 create public/private keys for ssh
 
 on remote machine add a user  
