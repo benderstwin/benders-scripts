@@ -37,16 +37,18 @@ torrentpath=$3
 
 ############check if torrent was added by remote host to the sync directory##########
 mkdir -p /config/synclogs
+config=/config
 
 if [ ! -f $INCOMINGDIR/${torrentid} ]
   then
-    echo "file doesnt exist"
+    echo "file doesnt exist, resuming torrent download'
+    deluge-console -c $config "resume" $torrentid
     exit
 fi
 
 
 torrentfile=${INCOMINGDIR}/${torrentid}.torrent
-config=/config
+
 
 #remove torrent and add with path to completed
 deluge-console -c ${config} "add -p" ${COMPLETEDDIR} ${torrentfile}
