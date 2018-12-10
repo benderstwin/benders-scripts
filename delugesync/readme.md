@@ -41,4 +41,7 @@ edit script variables:
 INCOMINGDIR=/data/torrents/blackhole #create a directory for blackhole
 COMPLETEDDIR=/data/torrents/ipt
 
-configure deluge to automatically add torrents from this directory in a paused state
+## Support on Beerpay
+If you feel like donating, I like :beers:! :smiley:
+
+[![Beerpay](https://beerpay.io/benderstwin/benders-scripts/badge.svg?style=beer-square)](https://beerpay.io/benderstwin/benders-scripts)  [![Beerpay](https://beerpay.io/benderstwin/benders-scripts/make-wish.svg?style=flat-square)](https://beerpay.io/benderstwin/benders-scripts?focus=wish
