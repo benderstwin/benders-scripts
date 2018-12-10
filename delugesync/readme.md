@@ -41,6 +41,8 @@ edit script variables:
 INCOMINGDIR=/data/torrents/blackhole #create a directory for blackhole
 COMPLETEDDIR=/data/torrents/ipt
 
+set option in deluge to add torrents in a paused state.  if the script doesnt detect that its a torrent it shouldn't watch, it will automatically resume and torrents added.
+
 ## Support on Beerpay
 If you feel like donating, I like :beers:! :smiley:
 
