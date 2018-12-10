@@ -1,6 +1,7 @@
 To do to increase functionality:
 add ability to transfer with rclone
 add ability to define multiple directories (for multiple labels/trackers)
+create setup script to copy deluge scripts, generate sshkeys and copy pub key to remote host
 
 NOTE:  You must sync your files to your seedbox.  I use syncthing for this currently, but you can use whatever you want.
 
